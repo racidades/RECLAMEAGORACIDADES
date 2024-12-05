@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bairros e Cidades - Avalie Seu Bairro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header nav a {
+            color: white;
+            margin-left: 15px;
+            text-decoration: none;
+        }
+
+        .hero {
+            background: url('https://example.com/banner.jpg') no-repeat center center/cover;
+            height: 60vh;
+            text-align: center;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+        }
+
+        .button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        .features div {
+            width: 30%;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bairros e Cidades</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Avaliar Bairro</a>
+            <a href="#">Fale Conosco</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Avalie o seu bairro e ajude a melhorar sua cidade</h2>
+        <p>Compartilhe suas opiniões, críticas e sugestões sobre segurança, infraestrutura e muito mais.</p>
+        <a href="#" class="button">Avaliar seu Bairro</a>
+        <a href="#" class="button">Saiba Mais</a>
+    </div>
+
+    <div class="section">
+        <h2>Nossa Missão</h2>
+        <p>Queremos criar uma plataforma onde moradores possam compartilhar suas opiniões sobre bairros e sugerir melhorias, ajudando a construir um futuro melhor para nossa cidade.</p>
+    </div>
+
+    <div class="section">
+        <h2>Funcionalidades Principais</h2>
+        <div class="features">
+            <div>
+                <h3>Avaliações de Bairros</h3>
+                <p>Avalie seu bairro em diferentes categorias.</p>
+            </div>
+            <div>
+                <h3>Ranking de Bairros</h3>
+                <p>Veja quais bairros se destacam em segurança, qualidade de vida e mais.</p>
+            </div>
+            <div>
+                <h3>Sugestões e Reclamações</h3>
+                <p>Envie suas sugestões para melhorias diretas ao município.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Participe Agora</h2>
+        <p>Nos ajude a melhorar os bairros da nossa cidade. Avalie, sugira e compartilhe!</p>
+        <a href="#" class="button">Avaliar seu Bairro</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Bairros e Cidades | <a href="#">Fale Conosco</a></p>
+    </footer>
+</body>
+</html>
